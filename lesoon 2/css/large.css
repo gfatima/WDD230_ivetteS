@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+/*font-family: 'Raleway', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+/*font-family: 'Antic Slab', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/*font-family: 'Special Elite', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
+/*font-family: 'Alef', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+/*font-family: 'IBM Plex Sans', sans-serif;*/
+
+.content-design {
+  grid-column: 1/6;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 100%;
+  background-color: #aaf5f5e1;
+  box-shadow: 2px 2px 8px .9px rgba(51, 248, 205, 0.582),
+    2px 2px 8px .9px rgba(26, 14, 22, 0.836),
+    2px 2px 8px .9px rgba(124, 248, 176, 0.836);
+
+}
+
+.content-design img {
+  max-width: 60%;
+  box-shadow: 2px 2px 8px .9px rgba(67, 237, 243, 0.582),
+    2px 2px 8px .9px rgba(26, 14, 22, 0.836),
+    2px 2px 8px .9px rgba(124, 240, 248, 0.836);
+  margin-left: 18%;
+}
+
+.h1 {
+  font-family: 'Antic Slab',
+    serif;
+  color: #73e0c0;
+  text-shadow: 2px 2px 2px #194135,
+    2px 2px 2px #07f7af;
+  font-size: 1.6rem;
+  margin: 1em .5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.paragraph {
+  background-color: rgba(211, 124, 43, 0.651);
+  margin: 2em;
+  border-radius: 5px;
+  padding: .5em 1.2em;
+  color: whitesmoke;
+  font-family: 'Alef',
+    sans-serif;
+    font-size: 1rem;
+
+}
+
+.content-design a,
+.content-design span {
+  text-decoration: none;
+  font-family: 'IBM Plex Sans',
+    sans-serif;
+  color: #df7393;
+  font-size: 1.6rem;
+  margin: 1.5em .5em;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.design-white {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border: 2px solid #aaf5f5e1;
+  background-color: #0a2525e1;
+  border-radius: 8px;
+  margin: 1em;
+}
+
+.design-picture {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  border: 2px solid #aaf5f5e1;
+  background-color: #0a2525e1;
+  border-radius: 8px;
+  margin: 1em;
+
+
+}
+
+.design-other {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  border: 2px solid #aaf5f5e1;
+  background-color: #0a2525e1;
+  border-radius: 8px;
+  margin: 1em;
+}

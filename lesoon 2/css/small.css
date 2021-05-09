@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+
+  .design-white {
+    grid-column: 1/4;
+    grid-row: 1;
+
+  }
+
+  .design-picture {
+    grid-column: 1/4;
+    grid-row: 2;
+
+  }
+
+  .design-other {
+    grid-column: 1/4;
+    grid-row: 3;
+
+  }
+
+  .h1 {
+    font-size: .6rem;
+    margin: 1em .5em;
+  }
+
+  .paragraph {
+    margin: 2em;
+    font-size: 1rem;
+
+  }
+
+  .content-design a,
+  .content-design span {
+    font-size: 1.5rem;
+    margin: 1.5em .5em;
+  }
+}

@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1200px) {
+
+  #user-navigation a {
+    font-size: 1rem;
+  }
+
+  .page-title h2 {
+    letter-spacing: .25em;
+    font-size: 1.8rem;
+  }
+
+  .sub-title h1 {
+    font-size: 2.2rem;
+
+  }
+
+  .items li a {
+    font-size: 1.2rem;
+  }
+
+  .imgs {
+    grid-column: 2/5;
+    grid-row: 1;
+
+  }
+  
+  .items {
+    grid-column: 1/6;
+    grid-row: 2;
+  }
+
+  .imgs img {
+    max-width: 80%;
+    box-shadow: 2px 2px 18px .9px #df7393;
+  }
+
+  .footer-paragraph {
+    font-size: 1.2em;
+  }
+
+    .social img {
+      border-radius: 10%;
+      max-width: 25%;
+    }
+
+}
