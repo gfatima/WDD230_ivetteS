@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px) {
+
+  nav {
+    height: auto;
+  }
+
+  nav ul li a {
+    font-size: .8rem;
+  }
+
+  .containt {
+    margin: 0;
+  }
+
+  .box-title h1 {
+    font-size: 1.5rem;
+
+  }
+
+  nav li {
+    font-size: 1rem;
+  }
+
+  nav li a {
+    font-size: 1.2rem;
+  }
+
+  .imgs {
+    margin-bottom: 1em;
+    
+  }
+
+  .footer-paragraph {
+    font-size: 1em;
+  }
+
+  .social img {
+    border-radius: 10%;
+    max-width: 40%;
+  }
+
+}
