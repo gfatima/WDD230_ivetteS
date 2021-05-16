@@ -1,0 +1,64 @@
+@media only screen and (min-width: 54em) {
+
+  .content-box {
+    background-color: #ccc;
+  }
+
+  header img {
+    width: 80px;
+    height: auto;
+  }
+
+  .box-title h1 {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    letter-spacing: 1.5pt;
+    font-size: larger;
+    margin-left: 17px;
+  }
+
+
+  nav {
+    background: #0a3800;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #0a3800 0%, #408153 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #0a3800 0%, #408153 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #0a3800 0%, #408153 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a3800', endColorstr='#408153', GradientType=0);
+    /* IE6-9 */
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  nav ul {
+    margin-left: 2%;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid #408153;
+    padding: .6rem 1rem;
+  }
+
+  .expand {
+    width: 100%;
+  }
+
+}
+
+/*end large*/
