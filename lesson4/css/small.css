@@ -11,7 +11,7 @@
   --accent3-color: #000000;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: 'Merriweather Sans',sans-serif;
+  --heading-font: 'Merriweather Sans', sans-serif;
   --paragraph-font: 'Karla', sans-serif;
   ;
 
@@ -107,7 +107,7 @@ h2 {
   font-family: italic;
 }
 
-.box-nav{
+.box-nav {
   text-align: center;
 }
 
@@ -163,7 +163,7 @@ nav ul.hide {
   font-family: var(--heading-font);
 }
 
-.box-main{
+.box-main {
   font-family: var(--paragraph-font);
   font-size: 1.2rem;
 }
@@ -178,6 +178,11 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+#lastUpdate {
+  font-size: 1.1rem;
+  letter-spacing: 1pt;
 }
 
 /*----Clearfix: force an Element not to collapse----*/

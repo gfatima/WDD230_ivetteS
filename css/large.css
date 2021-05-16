@@ -253,6 +253,7 @@ footer {
   text-align: center;
 }
 
-#lastUpdate{
+#lastUpdate {
   font-weight: bold;
+  font-size: 1.1rem;
 }
