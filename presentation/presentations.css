@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  border: springgreen;
+  margin: 1.5rem;
+}
+
+main {
+  border: solid white;
+}
+
+p {
+  color: aquamarine;
+}
+
+a {
+  color: inherit;
+}
+
+li {
+  color: red;
+}
+
+ul {
+  background-color: ivory;
+}
+
+.item {
+  color: initial;
+}
+
+* {   /* ---> 0 */
+  color: aqua;
+}
+
+h1 { /* ---> 1 */
+  color: blueviolet !important;
+}
+
+.title {  /* ---> 10 */
+  color: rgb(157, 165, 42);
+}
+
+#my-title {  /* ---> 100 */
+  color: greenyellow;
+}
+
+
