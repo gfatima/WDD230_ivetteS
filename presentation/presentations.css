@@ -25,7 +25,9 @@ li {
 ul {
   background-color: ivory;
 }
-
+p{
+  font-size: 1.2rem;
+}
 .item {
   color: initial;
 }
@@ -33,17 +35,23 @@ ul {
 * {   /* ---> 0 */
   color: aqua;
 }
-
 h1 { /* ---> 1 */
   color: blueviolet !important;
 }
-
 .title {  /* ---> 10 */
   color: rgb(157, 165, 42);
 }
-
 #my-title {  /* ---> 100 */
   color: greenyellow;
 }
 
+#two{ /*100*/
+  color: yellow;
+}
+p.one { /*1+10 = 11*/
+  color: red;
+}
+p{ /*   1  */
+  color: cornflowerblue;
+}
 

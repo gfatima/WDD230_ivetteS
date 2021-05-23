@@ -1,0 +1,123 @@
+@media only screen and (min-width: 54em) {
+
+  .content-box {
+    background-color: #ccc;
+  }
+
+  header img {
+    width: 80px;
+    height: auto;
+  }
+
+  .box-title h1 {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    letter-spacing: 1.5pt;
+    font-size: larger;
+    margin-left: 17px;
+  }
+
+
+  nav {
+    background: #0a3800;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #0a3800 0%, #408153 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #0a3800 0%, #408153 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #0a3800 0%, #408153 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a3800', endColorstr='#408153', GradientType=0);
+    /* IE6-9 */
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  nav ul {
+    margin-left: 2%;
+  }
+
+  nav ul li {
+    float: left;
+    margin: 0 4em;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid #408153;
+    padding: .6rem 1rem;
+  }
+
+  .nav ul li a:hover {
+    margin: 0;
+  }
+
+  .expand {
+    width: 100%;
+  }
+
+  .weather-summary {
+    padding: 1rem 1rem;
+    width: 350px;
+    height: 380px;
+    font-size: 1.5rem;
+  }
+
+  .weather-summary h1 {
+    font-size: 1.6rem;
+  }
+
+  .box-article img {
+    max-width: 30%;
+    float: right;
+    margin: 2rem;
+  }
+
+  .box-article {
+    margin: 0 1rem;
+    background-color: rgb(204, 212, 212);
+    margin: 6% 0;
+    padding: 3%;
+  }
+
+  .box-forecast table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .box-contact {
+    height: 430px;
+    display: flex;
+  }
+
+  .box-contact img {
+    display: block;
+    position: relative;
+    max-width: 55%;
+    margin: 2rem;
+  }
+
+  .box-info {
+    float: right;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+    max-width: 300px;
+  }
+
+  .social-media img {
+    max-width: 60%;
+  }
+}
+
+/*end large*/
