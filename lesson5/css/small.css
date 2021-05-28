@@ -209,13 +209,13 @@ footer p {
 }
 
 .weather-summary {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  background-color: seagreen;
+  background-color: var(--accent2-color);
   opacity: .8;
-  padding: 0 1rem;
+  padding: .5rem 1rem;
+  margin: 1rem;
   color: #F5F5F5;
+  font-size: 1rem;
+
 }
 
 .weather-summary h1 {

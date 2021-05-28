@@ -23,12 +23,23 @@
     margin-left: 17px;
   }
 
+  .weather-summary {
+    position: absolute;
+    top: .3rem;
+    left: .3rem;
+    background-color: seagreen;
+    opacity: .8;
+    color: #F5F5F5;
+    font-size: .9rem;
+    padding: .2rem;
+  }
+
   .box-forecast {
     display: block;
     margin-top: -3px;
   }
 
-  .box-forecast img{
+  .box-forecast img {
     max-width: 20%;
   }
 
@@ -54,7 +65,8 @@
     justify-content: space-around;
     max-width: 300px;
   }
-  .social-media img{
+
+  .social-media img {
     max-width: 60%;
   }
 
