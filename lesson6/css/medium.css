@@ -28,7 +28,6 @@
     padding: 0;
   }
 
-
   .weather-summary {
     position: absolute;
     top: .2rem;
@@ -38,6 +37,24 @@
     color: #F5F5F5;
     font-size: .9rem;
     padding: .2rem;
+  }
+
+  #small,
+  #large {
+    display: none;
+
+  }
+
+  #medium {
+    display: initial;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+    width: 100px;
+    color: rgb(221, 21, 21);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--paragraph-font);
   }
 
   .box-forecast {
@@ -50,7 +67,7 @@
   }
 
   main picture.photo-B {
-margin: .8%;
+    margin: .8%;
   }
 
   .box-contact {
