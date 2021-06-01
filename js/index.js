@@ -20,7 +20,7 @@ let months = [
 ];
 
 let dayOfWeek = days[d.getDay()];
-let month = months[d.getMonth()+1];
+let month = months[d.getMonth()];
 let day = d.getUTCDate();
 let year = d.getFullYear();
 let hour = d.getHours();
