@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: rgb(179, 128, 226);
+  font-family: 'Odibee Sans', cursive;
+  text-align: center;
+}
+
+picture img {
+  display: block;
+  margin: auto;
+  border: 1px solid #fff;
+  padding: 2px;
+  filter: blur(0em);
+  transition: filter 1s;
+}
+
+picture img[data-src] {
+  filter: blur(0.5em);
+}
