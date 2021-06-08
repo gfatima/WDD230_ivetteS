@@ -17,14 +17,14 @@
 
 }
 
-main{
+main {
   align-items: center;
 }
 
-main h1{
- font-family: var(--heading-font);
- text-align: center;
- text-shadow: .2px .2px 3px var(--accent2-color);
+main h1 {
+  font-family: var(--heading-font);
+  text-align: center;
+  text-shadow: .2px .2px 3px var(--accent2-color);
 }
 
 table {
@@ -55,8 +55,12 @@ td {
 
 thead tr th {
   font-family: var(--heading-font);
-  font-size: larger;
+  font-size: large;
   padding: .5rem .5rem;
+}
+
+.title {
+  font-size: x-large;
 }
 
 table thead tr {
