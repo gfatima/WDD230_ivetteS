@@ -136,18 +136,32 @@
     max-width: 60%;
   }
 
-    .gallery-div {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      max-width: 95%;
+  .gallery-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 95%;
 
-    }
+  }
 
-    .gallery-img {
-      max-width: 100%;
-      padding: 0;
-      margin: 0;
-    }
+  .gallery-img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  form {
+    border-radius: 10px;
+  }
+
+  form label.top input,
+  form label.top select,
+  form label.top textarea {
+    max-width: 600px;
+  }
+
+  form input.submitBtn {
+    max-width: 400px;
+  }
 
 }
 

@@ -71,6 +71,11 @@ header figure.logo {
 
 }
 
+.logo img {
+  border: none;
+  box-shadow: none;
+}
+
 h1 {
   font-size: 1.2rem;
   color: var(--primary-color);
@@ -330,4 +335,135 @@ figcaption {
 img:hover {
   box-shadow: none;
   transition: 1s;
+}
+
+form label.top input,
+form label.top select,
+form label.top textarea {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px rgb(192, 192, 192);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 96%;
+  margin-bottom: 25px;
+  background-color: var(--accent2-color);
+  color: #fff;
+  margin: 1em;
+  transition: .8s;
+}
+
+form label.sbs {
+  display: block;
+  padding: .5rem;
+  font-family: var(--paragraph-font);
+  font-size: .9rem;
+
+}
+
+form {
+  padding: 15px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #003D11;
+  margin-bottom: 80px;
+}
+
+form fieldset {
+  border-radius: 10px;
+  border: .12rem solid var(--accent2-color);
+  padding: 10px;
+  margin: 20px 0 30px;
+  background-color: var(--primary-color);
+}
+
+form legend {
+  color: var(--accent2-color);
+  font-family: var(--heading-font);
+  text-shadow: .15px .15px 2px var(--accent3-color);
+  margin: 0 .5rem;
+  padding: 0 .5rem;
+}
+
+form span {
+  color: red;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+form label option {
+  color: var(--primary-color);
+}
+
+form label.top,
+form div {
+  display: block;
+  color: var(--accent2-color);
+  font-family: var(--paragraph-font);
+  font-size: .9rem;
+  margin-top: .5rem;
+  margin-left: .5rem;
+
+}
+
+form label.top input:required {
+  border-left: red solid 3px;
+  background-color: var(--accent2-color);
+  color: #fff;
+  margin: 1em;
+  transition: .8s;
+}
+
+form label.top input:focus,
+form label.top select:focus {
+  transition: .8s;
+  outline: 1px solid var(--accent2-color);
+  border-bottom-color: white;
+}
+
+form label.top input:hover,
+form label.top select:hover {
+  background: var(--accent1-color);
+}
+
+form label.top input:required:valid {
+  border-left: green solid 3px;
+  background-color: var(--accent2-color);
+  color: #fff;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: var(--accent2-color);
+  color: white;
+  text-transform: uppercase;
+  border-radius: .5rem;
+  padding: 10px 0;
+  width: 96%;
+  padding: auto;
+  font-size: 1.2rem;
+  max-width: 400px;
+}
+
+form input.submitBtn:hover {
+  background: var(--accent1-color);
+
+}
+
+form input.submitBtn:focus {
+  transition: .8s;
+  outline: 1px solid var(--accent3-color);
+  border-bottom-color: white;
+}
+
+.thanks {
+  background: var(--accent2-color);
+  border: .12rem solid var(--primary-color);
+  font-family: var(--paragraph-font);
+  color: var(--primary-color);
+  box-shadow: 0px 0px 10px #003D11;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem;
+
 }
