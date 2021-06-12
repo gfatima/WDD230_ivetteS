@@ -440,7 +440,6 @@ form input.submitBtn {
   border-radius: .5rem;
   padding: 10px 0;
   width: 96%;
-  padding: auto;
   font-size: 1.2rem;
   max-width: 400px;
 }
