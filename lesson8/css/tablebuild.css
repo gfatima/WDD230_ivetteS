@@ -59,10 +59,6 @@ thead tr th {
   padding: .5rem .5rem;
 }
 
-.title {
-  font-size: x-large;
-}
-
 table thead tr {
   background-color: #7fb9c2;
 }
@@ -83,8 +79,4 @@ tr:nth-child(even) {
 table .blue {
   background-color: #628ca6;
   color: white;
-}
-
-.dollars:before {
-  content: '$';
 }
