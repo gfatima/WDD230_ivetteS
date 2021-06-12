@@ -151,12 +151,14 @@
 
   form {
     border-radius: 10px;
+    max-width: 60%;
+    margin: 2% 20%;
   }
 
   form label.top input,
   form label.top select,
   form label.top textarea {
-    max-width: 600px;
+    max-width: 100%;
   }
 
   form input.submitBtn {
