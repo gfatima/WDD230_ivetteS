@@ -415,14 +415,16 @@ form label.top input:required {
 }
 
 form label.top input:focus,
-form label.top select:focus {
+form label.top select:focus,
+form label.top textarea:focus {
   transition: .8s;
   outline: 1px solid var(--accent2-color);
   border-bottom-color: white;
 }
 
 form label.top input:hover,
-form label.top select:hover {
+form label.top select:hover,
+form label.top textarea:hover {
   background: var(--accent1-color);
 }
 
