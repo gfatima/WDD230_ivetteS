@@ -21,7 +21,7 @@ let months = [
 
 let dayOfWeek = days[d.getDay()];
 let month = months[d.getMonth()];
-let day = d.getUTCDate();
+let day = d.getDate();
 let year = d.getFullYear();
 let hour = d.getHours();
 let min = d.getMinutes();
