@@ -71,16 +71,15 @@
   }
 
   .box-contact {
-    height: 330px;
+    height: 550px;
     display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
   }
 
-  .box-contact img {
+  .box-contact picture {
     display: block;
-    position: relative;
-    top: 14px;
-    left: 15px;
-    max-width: 80%;
   }
 
   .box-info {
@@ -131,6 +130,48 @@
 
   figure img {
     max-width: 100%;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .cards section {
+    display: flex;
+    flex: 2 1 auto;
+    flex-flow: wrap;
+
+  }
+
+  .cards section:nth-child(odd) {
+    flex-direction: row-reverse;
+
+  }
+
+  .cards section:nth-child(odd) img {
+    order: 0;
+    flex: 1 5 98%;
+
+  }
+
+  .cards section:nth-child(-n+3) h2,
+  .cards section:nth-child(-n+3) h4,
+  .cards section:nth-child(-n+3) p {
+    height: 10%;
+    flex: 0 0 51%;
+    margin: 0;
+    padding: .5rem 0;
+
+  }
+
+  .cards img {
+    max-width: 40%;
+    height: auto;
+    padding: 0;
+    margin: 3%;
+
   }
 
 

@@ -280,8 +280,12 @@ article {
   margin: 0;
 }
 
-.box-contact img {
+.box-contact picture {
   display: none;
+}
+
+.box-contact img {
+  max-width: 50%;
 }
 
 .box-info {
@@ -363,7 +367,7 @@ form label.sbs {
 
 form {
   padding: 15px;
-  background-color:  whitesmoke;
+  background-color: whitesmoke;
   border-radius: 10px;
   box-shadow: 0px 0px 10px #003D11;
   margin-bottom: 80px;
@@ -467,4 +471,72 @@ form input.submitBtn:focus {
   padding: 2rem;
   margin: 2rem;
 
+}
+
+/*--------Home Page -------*/
+.homepage {
+  background-color: #fff;
+}
+
+.cards section {
+  background-color: azure;
+  max-width: 95%;
+  padding: .5rem 2rem;
+  margin: .7rem 1rem 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.cards img {
+  max-width: 95%;
+  margin: 0 2.5% 5%;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 19px 38px, rgba(0, 0, 0, 0.5) 0 15px 12px;
+}
+
+.cards p {
+  padding: 0;
+  margin: 0 .5rem;
+  text-align: center;
+  font-family: var(--paragraph-font);
+  font-size: 1rem;
+
+}
+
+.cards h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+
+.cards h4 {
+  font-size: var(--heading-font);
+  font-size: .8rem;
+  text-align: center;
+}
+
+.box-article img {
+  max-width: 90%;
+  margin: 5%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px,
+    rgba(0, 0, 0, 0.22) 0 15px 12px;
+
+}
+
+.wireframe {
+  background-color: rgb(230, 247, 247);
+  padding: 5%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px,
+    rgba(0, 0, 0, 0.22) 0 15px 12px;
+}
+
+.wireframe img {
+  max-width: 100%;
+  margin: 1rem 0;
+  border: 1px solid #000000;
+
+}
+
+.wireframe h4{
+  text-align: center;
 }
