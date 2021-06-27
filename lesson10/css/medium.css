@@ -1,0 +1,193 @@
+@media only screen and (min-width: 32.5em) {
+
+  .box-main {
+    max-width: 80%;
+    margin: 0 10%;
+  }
+
+  .content-box {
+    background-color: rgb(153, 184, 173);
+  }
+
+  header img {
+    width: 80px;
+  }
+
+  .box-title h1 {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    letter-spacing: 1.5pt;
+    font-size: 1rem;
+    margin-left: 17px;
+  }
+
+  .box-summary {
+    position: relative;
+  }
+
+  .weather-summary {
+    position: absolute;
+    top: .8rem;
+    left: 1.8rem;
+    background-color: seagreen;
+    opacity: .8;
+    color: #F5F5F5;
+    font-size: .7rem;
+    padding: .2rem .5rem;
+    margin: .5rem;
+  }
+
+  .weather-summary h1,
+  .weather-summary p{
+    margin: 0.6rem;
+  }
+
+  #small,
+  #large {
+    display: none;
+
+  }
+
+  #medium {
+    display: initial;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+    width: 100px;
+    color: rgb(221, 21, 21);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--paragraph-font);
+  }
+
+  .box-forecast {
+    display: block;
+    margin-top: -3px;
+    font-family: var(--paragraph-font);
+    font-size: 1.5rem;
+  }
+
+  .box-forecast img {
+    max-width: 20%;
+  }
+
+  main picture.photo-B {
+    margin: .8%;
+  }
+
+  .box-contact {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .box-contact picture {
+    display: block;
+  }
+
+  .box-info {
+    float: right;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+    max-width: 300px;
+  }
+
+  .social-media img {
+    max-width: 60%;
+  }
+
+  .box-forecast {
+    text-align: center;
+  }
+
+  .box-forecast table,
+  .box-forecast td,
+  .box-forecast th {
+    border: 1px solid black;
+  }
+
+  .box-forecast table {
+    width: 60%;
+    border-collapse: collapse;
+  }
+
+  .box-forecast th {
+    background-color: var(--secondary-color);
+  }
+
+  .gallery-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 95%;
+
+  }
+
+  .gallery-img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  figure img {
+    max-width: 100%;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .cards section {
+    display: flex;
+    flex: 2 1 auto;
+    flex-flow: wrap;
+
+  }
+
+  .cards section:nth-child(odd) {
+    flex-direction: row-reverse;
+
+  }
+
+  .cards section:nth-child(odd) img {
+    order: 0;
+    flex: 1 5 98%;
+
+  }
+
+  .cards section:nth-child(-n+3) h2,
+  .cards section:nth-child(-n+3) h4,
+  .cards section:nth-child(-n+3) p {
+    height: 10%;
+    flex: 0 0 51%;
+    margin: 0;
+    padding: .5rem 0;
+
+  }
+
+  .cards img {
+    max-width: 40%;
+    height: auto;
+    padding: 0;
+    margin: 2%;
+
+  }
+
+  .grid-forecast img {
+    max-width: 100%;
+    width: 7rem;
+
+  }
+
+
+}
+
+/*en medium*/
