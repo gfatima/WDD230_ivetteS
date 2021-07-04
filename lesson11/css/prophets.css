@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2 {
+  font-family: 'Arvo', serif;
+}
+
+p {
+  font-family: 'Cairo', sans-serif;
+}
+
+header {
+  background-color: #ece7d5;
+  width: 100%;
+  margin: 0;
+}
+
+header h1 {
+  text-align: center;
+  padding: 0.8rem;
+  color: black;
+  text-shadow: .9px .9px 2px #3a2703, 1.9px 1.9px 2px #dfaa65;
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: .5rem;
+  text-align: center;
+}
+
+body {
+  background-color: #55290ca9;
+  margin: 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin: 0 2%;
+}
+
+.cards section {
+  background-color: #e4f1f7;
+  margin: .7rem 1rem 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.cards img {
+  max-width: 40%;
+  margin: 0 30% 10%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
+}
+
+.cards p {
+  padding: 0;
+  margin: 0 .5rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #ece7d5;
+  color: black;
+}
+
+@media only screen and (min-width: 32.5em) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+
+  }
+
+  .cards section {
+    height: 550px;
+  }
+
+  .cards img {
+    max-width: 80%;
+    margin: 10% 10%;
+
+  }
+
+}
+
+@media only screen and (min-width: 54em) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+
+  }
+
+  .cards section {
+    height: 550px;
+    
+  }
+
+  .cards img {
+    max-width: 80%;
+    margin: 10% 10%;
+
+  }
+
+}

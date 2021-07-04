@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-column: #e7f0ed;
+  --secondary-column: #e7ffed;
+  --accent1-color: #628ca6;
+  --accent2-color: #7fb9c2;
+  --accent3-color: #fff;
+  --accent4-color: #000;
+  --accent5-color: #ccc;
+
+  --heading-font: 'Ubuntu',
+    sans-serif;
+  --paragraph-font: 'Ubuntu',
+    sans-serif;
+
+}
+
+main {
+  align-items: center;
+}
+
+main h1 {
+  font-family: var(--heading-font);
+  text-align: center;
+  text-shadow: .2px .2px 3px var(--accent2-color);
+}
+
+table {
+  font-family: var(--paragraph-font);
+  text-align: center;
+  border: .3px solid var(--accent5-color);
+  border-spacing: 0;
+  box-shadow: 8px 8px 9px var(--accent1-color);
+  margin: auto;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid var(--accent5-color);
+
+}
+
+tr {
+  background-color: #e7f0ed;
+}
+
+td {
+  font-family: var(--paragraph-font);
+  border: 1px solid var(--accent5-color);
+  padding: .3rem .3rem;
+  font-weight: lighter;
+}
+
+thead tr th {
+  font-family: var(--heading-font);
+  font-size: large;
+  padding: .5rem .5rem;
+}
+
+table thead tr {
+  background-color: #7fb9c2;
+}
+
+table tfoot tr td {
+  font-size: smaller;
+  background-color: #7fb9c2;
+}
+
+tr:nth-child(5) td:nth-child(1) {
+  font-style: italic;
+}
+
+tr:nth-child(even) {
+  background-color: #e7ffed;
+}
+
+table .blue {
+  background-color: #628ca6;
+  color: white;
+}

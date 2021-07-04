@@ -1,0 +1,189 @@
+@media only screen and (min-width: 32.5em) {
+
+  .box-main {
+    max-width: 80%;
+    margin: 0 10%;
+  }
+
+  .content-box {
+    background-color: rgb(153, 184, 173);
+  }
+
+  header img {
+    width: 80px;
+  }
+
+  .box-title h1 {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    letter-spacing: 1.5pt;
+    font-size: 1rem;
+    margin-left: 17px;
+  }
+
+  .box-summary {
+    position: relative;
+  }
+
+  .weather-summary {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.8rem;
+    background-color: var(--accent3-color);
+    opacity: .8;
+    padding: .2rem .5rem;
+    margin: .5rem;
+    padding: .5rem;
+  }
+
+  .weather-summary h1,
+  .weather-summary p {
+    margin: 0.6rem 1rem;
+  }
+
+  #small,
+  #large {
+    display: none;
+
+  }
+
+  #medium {
+    display: initial;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+    width: 100px;
+    color: rgb(221, 21, 21);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--paragraph-font);
+  }
+
+  .box-forecast {
+    display: block;
+    margin-top: -3px;
+    font-family: var(--paragraph-font);
+    font-size: 1.5rem;
+  }
+
+  .box-forecast img {
+    max-width: 20%;
+  }
+
+  main picture.photo-B {
+    margin: .8%;
+  }
+
+  .box-contact {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  iframe {
+    display: block;
+    width: 20rem;
+    height: 10rem;
+    border: none;
+    margin: 1rem;
+    box-shadow: 0px 0px 5px var(--accent1-color);
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .social-media img {
+    max-width: 50%;
+  }
+
+  .box-forecast {
+    text-align: center;
+  }
+
+  .gallery-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 95%;
+
+  }
+
+  .gallery-img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  figure img {
+    max-width: 100%;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cards section {
+    display: flex;
+    flex: 2 1 auto;
+    flex-flow: wrap;
+  }
+
+  .cards section:nth-child(odd) {
+    flex-direction: row-reverse;
+
+  }
+
+  .cards section:nth-child(odd) img {
+    order: 0;
+    flex: 1 5 98%;
+    margin-top: -8rem;
+  }
+
+  .cards section:nth-child(even) img {
+    margin-top: -8rem;
+  }
+
+  .cards section:nth-child(-n+3) h2,
+  .cards section:nth-child(-n+3) h4,
+  .cards section:nth-child(-n+3) p {
+    height: 10%;
+    flex: 0 0 51%;
+    margin: 0;
+    padding: .5rem 0;
+
+  }
+
+  .cards section:nth-child(-n+3) h4 {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    font-size: .7rem;
+  }
+
+  .cards section:nth-child(-n+3) p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cards img {
+    max-width: 40%;
+    height: auto;
+    padding: 0;
+    margin: 2%;
+
+  }
+
+  .grid-forecast img {
+    max-width: 100%;
+    width: 7rem;
+
+  }
+
+
+}
+
+/*en medium*/
