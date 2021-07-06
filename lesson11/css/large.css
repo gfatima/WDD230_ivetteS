@@ -86,7 +86,6 @@
 
   .box-article {
     margin: 0 1rem;
-    background-color: rgb(204, 212, 212);
     margin: 3% 0;
     padding: 3%;
   }
@@ -103,9 +102,9 @@
     font-size: 1rem;
   }
 
-  .box-forecast table {
-    width: 100%;
-    border-collapse: collapse;
+
+  .box-forecast {
+    margin: 0 12rem;
   }
 
   .box-contact {
@@ -160,6 +159,11 @@
 
   form input.submitBtn {
     max-width: 400px;
+  }
+
+  .thanks hr {
+    width: 20%;
+    margin-left: 0;
   }
 
   .cards {

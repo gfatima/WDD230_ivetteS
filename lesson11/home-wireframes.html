@@ -41,8 +41,8 @@
       <ul id="despl-nav" class="hide expand">
         <li><a href="index.html">Home</a></li>
         <li><a href="preston.html">Preston</a></li>
-        <li><a href="">Soda Springs</a></li>
-        <li><a href="">Fish Haven</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>
         <li><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
       </ul>
@@ -55,12 +55,28 @@
         </div>
 
         <div class="wireframe">
-          <h4>Home Page Large</h4>
-          <img src="images/homepageLarge.jpg" alt="Home page Large">
-          <h4>Home Page Medium</h4>
-          <img src="images/homepageMedium.jpg" alt="Home page Medium">
-          <h4>Home Page Small</h4>
-          <img src="images/homepageSmall.jpg" alt="Home page Small">
+          <h2>Home Page Large</h2>
+          <picture class="photo-A">
+            <source media="(max-width: 500px)" srcset="images/homepageLarge500.png">
+            <source media="(max-width: 799px)" srcset="images/homepageLarge800.png">
+            <source media="(max-width: 1199px)" srcset="images/homepageLarge1200.png">
+            <img src="images/homepageLarge1200.png" alt="Home page Large">
+          </picture>
+
+          <h2>Home Page Medium</h2>
+          <picture class="photo-A">
+            <source media="(max-width: 500px)" srcset="images/homepageMedium360.png">
+            <source media="(max-width: 799px)" srcset="images/homepageMedium500.png">
+            <source media="(max-width: 1199px)" srcset="images/homepageMedium800.png">
+            <img src="images/homepageMedium800.png" alt="Home page Medium">
+          </picture>
+          <h2>Home Page Small</h2>
+          <picture class="photo-A">
+            <source media="(max-width: 500px)" srcset="images/homepageSmall300.png">
+            <source media="(max-width: 799px)" srcset="images/homepageSmall400.png">
+            <source media="(max-width: 1199px)" srcset="images/homepageSmall600.png">
+            <img src="images/homepageSmall600.png" alt="Home page Small">
+          </picture>
         </div>
 
       </div>

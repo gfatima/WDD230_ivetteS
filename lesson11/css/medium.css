@@ -29,47 +29,43 @@
 
   .weather-summary {
     position: absolute;
-    top: 1.5rem;
+    top: 1.1rem;
     left: 1.8rem;
     background-color: var(--accent3-color);
     opacity: .8;
     padding: .2rem .5rem;
     margin: .5rem;
-    padding: .5rem;
+    box-shadow: 0px 0px 8px var(--accent1-color),
+      0px 0px 10px var(--accent2-color);
   }
 
   .weather-summary h1,
   .weather-summary p {
-    margin: 0.6rem 1rem;
+    margin: 0.6rem .8rem;
+    font-size: 1rem;
   }
 
-  #small,
-  #large {
-    display: none;
-
-  }
-
-  #medium {
-    display: initial;
-    position: absolute;
-    top: 40px;
-    left: 400px;
-    width: 100px;
-    color: rgb(221, 21, 21);
-    font-size: 20px;
-    font-weight: bold;
-    font-family: var(--paragraph-font);
+  #temperature {
+    font-size: 2.5rem;
+    padding: 0 .5rem 0 1.5rem;
+    text-shadow: .5px .5px 2px azure,
+      .8px .8px 10px var(--accent2-color);
   }
 
   .box-forecast {
     display: block;
-    margin-top: -3px;
-    font-family: var(--paragraph-font);
-    font-size: 1.5rem;
+    font-family: var(--heading-font);
+    margin: 1.5rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px,
+      rgba(0, 0, 0, 0.22) 0 15px 12px;
   }
 
   .box-forecast img {
-    max-width: 20%;
+    max-width: 100%;
+  }
+
+  .fs {
+    padding: .5rem;
   }
 
   main picture.photo-B {
@@ -109,7 +105,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 95%;
-
   }
 
   .gallery-img {
@@ -174,15 +169,12 @@
     height: auto;
     padding: 0;
     margin: 2%;
-
   }
 
   .grid-forecast img {
     max-width: 100%;
     width: 7rem;
-
   }
-
 
 }
 
