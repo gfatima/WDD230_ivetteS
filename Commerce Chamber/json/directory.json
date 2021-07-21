@@ -3,73 +3,73 @@
     "business": "CLINICA AREQUIPA S.A.",
     "phone": "(51) 054-599000",
     "address": "ESQ.PTE.GRAU AV.BOLOGNESI NRO S/N AREQUIPA - AREQUIPA - AREQUIPA",
-    "logo": "./images/bussines/clinicaarequipa.jpg",
+    "logo": "./images/clinicaarequipa.jpg",
     "website": "HTTP://WWW.CLINICAREQUIPA.COM.PE"
   }, {
     "business": "CIFUMIGA E.I.R.L.",
     "phone": "(51) 054-396919",
     "address": "LT 9 MZ D - URB. CÉSAR VALLEJO PAUCARPATA - AREQUIPA - AREQUIPA",
-    "logo": "./images/bussines/cifumiga.jpg",
+    "logo": "./images/cifumiga.jpg",
     "website": "HTTP://WWW.CIFUMIGA.COM"
   }, {
     "business": "CERTUS SEDE-AREQUIPA",
     "phone": "Av. los Incas Lote 1, Arequipa, Perú",
     "address": "Calle Avenida Esmeralda, Exterior Mz 4, Interior Lt 6",
-    "logo": "./images/bussines/certus,jpg",
+    "logo": "./images/certus,jpg",
     "website": "https://www.certus.edu.pe/sede/arequipa/"
   }, {
     "business": "ADECCO PERU S.A.",
     "phone": "(51) 054-383600 01-6114444",
     "address": "AV. CIRCUNVALACION CLUB GOLF LOS INCAS NRO. 208 INT. 102B URB. CLUB GOLF LOS INCAS",
-    "logo": "./images/bussines/adecco.jpg",
+    "logo": "./images/adecco.jpg",
     "website": "HTTP://WWW.ADECCO.COM.PE"
   }, {
     "business": "ALICORP S.A.A.",
     "phone": "(51) 054-382930",
     "address": "AV. ARGENTINA NRO 4793 - URB. PARQUE INDUSTRIAL CARMEN DE LA LEGUA-REYNOSO - PROV. CONST. DEL CALLAO - CALLAO",
-    "logo": "./images/bussines/alicorp.jpg",
+    "logo": "./images/alicorp.jpg",
     "website": "HTTP://WWW.ALICORP.COM.PE"
   }, {
     "business": "ASOCIACION CIVIL SAN JUAN BAUTISTA",
     "phone": "(51) 054 - 604848 ANEXO 100",
     "address": "CAL.PERAL NRO 535 AREQUIPA - AREQUIPA - AREQUIPA",
-    "logo": "./images/bussines/parqueesperanza.jpg",
+    "logo": "./images/parqueesperanza.jpg",
     "website": "HTTP://WWW.PARQUEDELAESPERANZA.COM"
   }, {
     "business": "CORPORACION ACEROS AREQUIPA S.A.",
     "phone": "CAR.PANAMERICANA SUR NRO 241 - PANAMERICANA SUR PARACAS - PISCO - ICA",
     "address": " Av. Central 65, 1ro de Agosto",
-    "logo": "./images/bussines/aceros.jpg",
+    "logo": "./images/aceros.jpg",
     "website": "HTTP://WWW.ACEROSAREQUIPA.COM"
   }, {
     "business": "RICO POLLO",
     "phone": "(51) 054 - 605300",
     "address": "CAR.PANAMERICANA SUR LT 12 MZ B - Z.I.ASOC.AGRICOLA CONCORDIA VILLA EL SALVADOR - LIMA - LIMA",
-    "logo": "./images/bussines/ricopollo.jpg",
+    "logo": "./images/ricopollo.jpg",
     "website": "HTTP://WWW.RICOPOLLO.COM.PE"
   }, {
     "business": "FABRICA DE CHOCOLATES LA IBERICA S.A.",
     "phone": "(51) 054 - 215670",
     "address": "AV.JUAN VIDAURRAZAGA M NRO 131 - Z.I.PARQUE INDUSTRIAL AREQUIPA - AREQUIPA - AREQUIPA",
-    "logo": "./images/bussines/iberica.jpg",
+    "logo": "./images/iberica.jpg",
     "website": "HTTP://WWW.LAIBERICA.COM.PE"
   }, {
     "business": "INCALPACA TPX S.A.",
     "phone": "(51) 054 - 603000",
     "address": "CAL.CONDOR NRO 100 - URB.TAHUAYCANI SACHACA - AREQUIPA - AREQUIPA",
-    "logo": "./images/bussines/incalpaca.jpg",
+    "logo": "./images/incalpaca.jpg",
     "website": "HTTP://WWW.INCALPACA.COM"
   }, {
     "business": "MICHELL Y CIA.S.A.",
     "phone": "(51) 054 - 202525",
     "address": "AV.JUAN DE LA TORRE N° 101 SAN LAZARO AREQUIPA - AREQUIPA - AREQUIPA",
-    "logo": "./images/bussines/michell.jpg",
+    "logo": "./images/michell.jpg",
     "website": "HTTP://WWW.MICHELL.COM.PE"
   }, {
     "business": "LABORATORIOS PORTUGAL S.R.L.",
     "phone": "(51) 054 - 316031 054 - 316032",
     "address": "LT 2 MZ A - Z.I.PQUE IND RIO SECO 1 ETAPA CERRO COLORADO - AREQUIPA - AREQUIPA",
-    "logo": "./images/bussines/portugal.jpg",
+    "logo": "./images/portugal.jpg",
     "website": "HTTP://WWW.LABORATORIOSPORTUGAL.COM"
   }]
 }
