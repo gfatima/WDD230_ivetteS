@@ -47,6 +47,15 @@
     width: 100%;
   }
 
+.content-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
   .weather-summary {
     top: 1.5rem;
     left: 2.8rem;

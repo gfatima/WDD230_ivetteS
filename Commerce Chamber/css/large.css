@@ -1,0 +1,271 @@
+@media only screen and (min-width: 54em) {
+
+  header img {
+    width: 80px;
+    height: auto;
+  }
+
+  .box-title h1 {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    letter-spacing: 1.5pt;
+    font-size: larger;
+    margin-left: 17px;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  nav ul li {
+    display: inline-block;
+    width: 7rem;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid var(--accent1-color);
+    text-align: center;
+  }
+
+  .nav ul li a:hover {
+    margin: 0;
+  }
+
+  .expand {
+    width: 100%;
+  }
+
+  .content-box {
+    max-width: 90%;
+    margin: 0 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .box-us {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin: 0 1.5rem;
+    padding: 1rem;
+  }
+
+  .box-all-ads {
+    grid-column: 3/5;
+    grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin: 1.5rem;
+    padding: 1rem;
+
+  }
+
+  .box-ads {
+    max-width: 90%;
+    margin: 6% 5% 2%;
+  }
+
+  .box-cu{
+    display: flex;
+    flex-direction: row;
+  }
+
+.text-cu{
+  margin: 0 1.5rem;
+}
+
+  .box-associated {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin: auto;
+  }
+
+  .btn {
+    margin: 1.5rem 6rem;
+  }
+
+  .box-new {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+
+  main picture.photo-B {
+    width: 70%;
+    margin: 1.5rem 15%;
+    padding: 0;
+  }
+
+  .note-art {
+    padding: .5rem 1.6rem;
+    font-size: .8rem;
+    margin: .5rem 0;
+  }
+
+  .box-new h4 {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+
+  .box-new h5 {
+    margin: .2rem;
+    font-size: 1rem;
+  }
+
+  .box-calendar {
+    grid-column: 1/5;
+    grid-row: 4/7;
+  }
+
+  .box-calendar figure img {
+    display: flex;
+  }
+
+  /*=============ForeCast============*/
+  .box-forecast {
+    grid-column: 1/5;
+    grid-row: 7/8;
+    margin: 0 15% 2%;
+  }
+
+  .grid-forecast img {
+    max-width: 100%;
+    width: 10rem;
+  }
+
+  .weather-summary {
+    top: 1.5rem;
+    left: 2.8rem;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+  }
+
+  .weather-summary h1 {
+    font-size: 1.6rem;
+  }
+
+  .box-article {
+    margin: 0 1rem;
+    margin: 3% 0;
+    padding: 3%;
+  }
+
+  article h2 {
+    font-size: 1.5rem;
+  }
+
+  article p {
+    font-size: 1rem;
+  }
+
+  .article-author {
+    font-size: 1rem;
+  }
+
+  .box-contact {
+    height: 16rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 3.5rem;
+    margin: 0;
+    align-content: flex-start;
+  }
+
+  iframe {
+    width: 22rem;
+    height: 12rem;
+    margin: 2% 0 2% 5%;
+  }
+
+  .box-info {
+    max-width: 60%;
+    margin: 0 20% 0 5%;
+  }
+
+  .social-media {
+    max-width: 80%;
+    margin: 0 10%;
+  }
+
+  .social-media img {
+    max-width: 45%;
+  }
+
+  .gallery-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 95%;
+  }
+
+  .gallery-img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  /*--------------------Join--------------------*/
+  form {
+    border-radius: 10px;
+    max-width: 60%;
+    margin: 2% 20%;
+  }
+
+  form label.top input,
+  form label.top select,
+  form label.top textarea {
+    max-width: 100%;
+  }
+
+  form input.submitBtn {
+    max-width: 400px;
+  }
+
+  .thanks hr {
+    width: 20%;
+    margin-left: 0;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2%;
+  }
+
+  .cards section {
+    max-width: 35rem;
+    display: grid;
+    padding: 0;
+    padding-top: 15%;
+  }
+
+  .cards section:nth-child(-n+3) h4 {
+    padding: 0 0 3rem;
+    margin: 0;
+  }
+
+  .cards section:nth-child(-n+3) p {
+    padding: .2rem;
+    margin: 0;
+  }
+
+  .cards img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    padding-top: 13rem;
+    margin: 0;
+    box-shadow: none;
+
+  }
+
+
+}
+
+/*end large*/

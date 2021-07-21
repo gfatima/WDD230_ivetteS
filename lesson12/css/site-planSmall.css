@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Sawarabi+Mincho&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #C4FFF9;
+  --secondary-color: #37A8A9;
+  --accent1-color: #023E7D;
+  --accent2-color: #FFA90A;
+  --accent3-color: #A4161A;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: 'Sawarabi Mincho', sans-serif;
+  --paragraph-font: 'Comfortaa', cursive;
+  --paragraph-font2: 'Orbitron';
+  /*'Orbitron', sans-serif;*/
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #a4161a;
+  /* headlines on a white background */ 
+  --headline-color-on-color: #471105;
+  /* headlines on a colored background */
+  --paragraph-color-on-white: #023E7D;
+  /* paragraph text on a white background */
+  --paragraph-color-on-color: #471105;
+  /* paragraph text on a colored background */
+  --text-background-color: #37A8A9;
+  --nav-link-color: #37A8A9;
+  --nav-background-color: #023E7D;
+  --nav-hover-link-color: #023E7D;
+  --nav-hover-background-color: #FFA90A;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+html {
+  background-color: var(--primary-color);
+}
+
+body {
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1rem;
+}
+
+img {
+  max-width: 80%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+  font-size: .9rem;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: .5rem;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--text-background-color);
+}
+
+header>h1,
+header>h2 {
+  color: var(--headline-color-on-color);
+  font-size: 1.3rem;
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: .3rem;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+
+.colors th {
+  background-color: rgb(180, 179, 179);
+  font-family: var(--paragraph-font2);
+  font-size: .8rem;
+}
+
+.colors td {
+  width: 20%;
+  height: 5rem;
+  color: white;
+  text-shadow: 1px 1px 3px rgb(167, 231, 37);
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+}
+
+.accent1 {
+  background-color: var(--accent1-color);
+}
+
+.accent2 {
+  background-color: var(--accent2-color);
+}
+
+.accent3 {
+  background-color: var(--accent3-color);
+}
+
+p.colored {
+  background-color: var(--text-background-color);
+  color: var(--paragraph-color-on-color);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+nav>ul {
+  list-style-type: none;
+  display: flex;
+
+}
+
+nav a {
+  padding: 1em;
+  min-width: 70px;
+}
+
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+.sitemap>img {
+  max-width: 80%;
+  margin: 10%;
+}
+
+.wf>img{
+padding: 0 10%;
+}

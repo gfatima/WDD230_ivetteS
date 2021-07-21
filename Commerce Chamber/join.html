@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>| ®CCI Home |</title>
+  <!-- STYLE SHEETS -->
+  <link type="text/css" rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!-- phone-default -->
+  <link href="css/small.css" rel="stylesheet">
+  <!-- enhance-tablet -->
+  <link href="css/medium.css" rel="stylesheet">
+  <!-- enhance-desktop -->
+  <link href="css/large.css" rel="stylesheet">
+  <link rel="shorcut icon" href="favicon.ico">
+</head>
+
+<body>
+  <div class="containt">
+    <header>
+      <figure class="logo">
+        <img src="images/logoCCIA.png" alt="logo"
+          srcset="images/logoCCIA75.png 1x, images/logoCCIA150.png 2x, images/logoCCIA.png 3x">
+      </figure>
+
+      <section class="box-title">
+        <h1>Arequipa Commerce Chamber</h1>
+        <div class="subtitle">"Success depends on strength when working"</div>
+      </section>
+    </header>
+    <nav class="clearfix box-nav" id="box-nav">
+      <button onclick="toggleMenu()" id="menu">&#9776;<span>Menu</span></button>
+      <ul id="despl-nav" class="hide expand">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="city.html">Arequipa</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="box-main">
+        <div class="box-form">
+          <h2 class="box-second-title">PROCESS AFFILIATION</h2>
+          <div>
+            <form method="get" action="thanks.html">
+
+              <fieldset class="form-top">
+                <legend>Company Data</legend>
+                <label class="top">Main Economic Activity:<span>*</span>
+                  <select name="stormRegion">
+                    <option>Select Option &#9662;</option>
+                    <option value="Commercial">Commercial</option>
+                    <option value="Industrial">Industrial</option>
+                    <option value="Imports">Imports</option>
+                    <option value="Exports">Exports</option>
+                    <option value="Services">Services</option>
+                  </select>
+                </label>
+                <label class="top">Size of the company:<span>*</span>
+                  <select name="stormRegion">
+                    <option>Select Option &#9662;</option>
+                    <option value="">Big Enterprises:</option>
+                    <option value="">Medium Businesses:</option>
+                    <option value="">Small Companies:</option>
+                    <option value="">Micro-businesses</option>
+                    <option value="">Entrepreneurs</option>
+                  </select>
+                </label>
+                <label class="top">Public Registry Electronic Item Number:<span>*</span><input type="number" name="reg"
+                    required></label>
+                <label class="top">Business name:<span>*</span><input type="text" name="bname" pattern="[\sA-Za-z]{5,}"
+                    required></label>
+                <label class="top">Business RUC:<span>*</span><input type="number" name="fruc" required></label>
+                <label class="top">Business Anddress:<span>*</span><input type="text" name="faddress"
+                    pattern="[\sA-Za-z]{5,}" required></label>
+                <label class="top">Business Zip Code<span>*</span> <input type="number" name="zip" required></label>
+                <label class="top">Business Web Page:<input type="email" name="bemail"
+                    placeholder="someone@gmail.com"></label>
+                <label class="top">Business Email:<span>*</span><input type="email" name="bemail"
+                    placeholder="someone@gmail.com"></label>
+                <label class="top">Business Phone<span>*</span> <input type="tel" name="bphone" placeholder="2085551234"
+                    required></label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Main Contact</legend>
+                <label class="top">Full Name <span>*</span><input type="text" name="fname" pattern="[\sA-Za-z]{5,}"
+                    required></label>
+                <label class="top">Email:<span>*</span><input type="email" name="email"
+                    placeholder="someone@gmail.com"></label>
+                <label class="top">Phone<span>*</span> <input type="tel" name="phone" placeholder="2085551234"
+                    required></label>
+              </fieldset>
+              
+              <fieldset>
+                <legend>Subscription</legend>
+                <label class="top">Membership Level <input list="membershipType" name="membershipType" required>
+                  <datalist id="membershipType">
+                    <option value="Non-Profit"></option>
+                    <option value="Bronze"></option>
+                    <option value="Silver"></option>
+                    <option value="Gold"></option>
+                  </datalist>
+                </label>
+                <label class="top">Amount payable:<span>*</span><input type="number" name="amount" required></label>
+                <label class="top">Payment Type:<span>*</span><input list="membershipPay" name="membershipPay"
+                    required>
+                  <datalist id="membershipPay">
+                    <option value="VISA"></option>
+                    <option value="MASTERCARD"></option>
+                    <option value="AMERICAN EXPRESS"></option>
+                    <option value="DINNER CLUB"></option>
+                  </datalist>
+                </label>
+              </fieldset>
+
+              <input class="submitBtn button brakemold" type="submit" value="PROCESS AFFILIATION">
+            </form>
+          </div>
+        </div>
+        <div class="box-contact">
+          <iframe target="_blank"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d540.94324561268!2d-71.54190901351178!3d-16.39086087472723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a4488d80a03%3A0x114426b15fc059f7!2sC%C3%A1mara%20de%20Comercio%20e%20Industria%20de%20Arequipa!5e0!3m2!1ses-419!2spe!4v1626315668061!5m2!1ses-419!2spe"></iframe>
+          <section class="box-info">
+            <div>
+              <h3>CCI Arequipa</h3>
+              <p>📍 Quezada 104, Yanahuara.<br>
+                Arequipa City, Peru 054</p>
+              <p>&#9990; (+51) 54-380505<br>
+                &#9993; ccia@cciarequipa.org</p>
+            </div>
+            <div class="social-media">
+              <a href="https://www.facebook.com/camaraccia" target="_blank"><img src="images/icons-f.png"
+                  alt="Facebook Link"></a>
+              <a href="https://twitter.com/CamaraArequipa" target="_blank"><img src="images/icons-t.png"
+                  alt="Twitter Link"></a>
+              <a href="https://www.linkedin.com/company/c%C3%A1mara-de-comercio-e-industria-de-arequipa/?originalSubdomain=pe"
+                target="_blank"><img src="images/icons-l.png" alt="Linkedig Link"></a>
+              <a href="https://www.instagram.com/camaradecomercio_aqp/?fbclid=IwAR0hw4tId24BtsK_Gd8kkTXn9gapq-9vMQRhe5rN-aF3n9iMp0ckPsDgmT0"
+                target="_blank"><img src="images/icons-i.png" alt="Instagram Link"></a>
+              <a href="https://www.youtube.com/channel/UCidSboaHWy6evh8ruXtBC0g" target="_blank"><img
+                  src="images/icons-y.png" alt="Youtube Link"></a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p> &copy; <span id="copyYear"> </span> CCI Arequipa Site | Attributions | Ivette Soto<br></p>
+      <p id="lastUpdate"></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfonts/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/city.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/weatherForecast.js"></script>
+    <script src="js/index.js"></script>
+
+  </div>
+
+</body>
+
+</html>
