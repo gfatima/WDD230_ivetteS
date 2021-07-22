@@ -50,52 +50,33 @@
 
               <fieldset class="form-top">
                 <legend>Company Data</legend>
-                <label class="top">Main Economic Activity:<span>*</span>
-                  <select name="stormRegion">
-                    <option>Select Option &#9662;</option>
-                    <option value="Commercial">Commercial</option>
-                    <option value="Industrial">Industrial</option>
-                    <option value="Imports">Imports</option>
-                    <option value="Exports">Exports</option>
-                    <option value="Services">Services</option>
-                  </select>
-                </label>
-                <label class="top">Size of the company:<span>*</span>
-                  <select name="stormRegion">
-                    <option>Select Option &#9662;</option>
-                    <option value="">Big Enterprises:</option>
-                    <option value="">Medium Businesses:</option>
-                    <option value="">Small Companies:</option>
-                    <option value="">Micro-businesses</option>
-                    <option value="">Entrepreneurs</option>
-                  </select>
-                </label>
-                <label class="top">Public Registry Electronic Item Number:<span>*</span><input type="number" name="reg"
-                    required></label>
                 <label class="top">Business name:<span>*</span><input type="text" name="bname" pattern="[\sA-Za-z]{5,}"
                     required></label>
                 <label class="top">Business RUC:<span>*</span><input type="number" name="fruc" required></label>
-                <label class="top">Business Anddress:<span>*</span><input type="text" name="faddress"
-                    pattern="[\sA-Za-z]{5,}" required></label>
-                <label class="top">Business Zip Code<span>*</span> <input type="number" name="zip" required></label>
-                <label class="top">Business Web Page:<input type="email" name="bemail"
-                    placeholder="someone@gmail.com"></label>
-                <label class="top">Business Email:<span>*</span><input type="email" name="bemail"
-                    placeholder="someone@gmail.com"></label>
-                <label class="top">Business Phone<span>*</span> <input type="tel" name="bphone" placeholder="2085551234"
-                    required></label>
+                <label class="top">Business Anddress:<input type="text" name="faddress"
+                    pattern="[\sA-Za-z]{5,}"></label>
+                <label class="top">Business Web Page:<input type="url" name="bemail"
+                    placeholder="www.some.some"></label>
+                <label class="top">Business Phone<input type="tel" name="bphone" placeholder="2085551234"></label>
+                <label class="top">Business Description
+                  <textarea name="comments" rows="5"
+                    placeholder="Please include any other details here"></textarea></label>
               </fieldset>
 
               <fieldset>
                 <legend>Main Contact</legend>
-                <label class="top">Full Name <span>*</span><input type="text" name="fname" pattern="[\sA-Za-z]{5,}"
+                <label class="top">First Name <span>*</span><input type="text" name="fname" pattern="[\sA-Za-z]{5,}"
                     required></label>
+                <label class="top">Last Name <span>*</span><input type="text" name="fname" pattern="[\sA-Za-z]{5,}"
+                    required></label>
+                <label class="top">Title <input type="text" name="title" pattern="[\sA-Za-z]{5,}"></label>
                 <label class="top">Email:<span>*</span><input type="email" name="email"
                     placeholder="someone@gmail.com"></label>
-                <label class="top">Phone<span>*</span> <input type="tel" name="phone" placeholder="2085551234"
-                    required></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="2085551234"></label>
+
+
               </fieldset>
-              
+
               <fieldset>
                 <legend>Subscription</legend>
                 <label class="top">Membership Level <input list="membershipType" name="membershipType" required>
@@ -106,9 +87,26 @@
                     <option value="Gold"></option>
                   </datalist>
                 </label>
+                <div>
+                <h2>LEVEL</h2>
+                <ul>
+                  <li>Non-profit Cost: ($100)  Perks:  A</li>
+                  <li>Bronze Cost:     ($200)  Perks:  A B</li>
+                  <li>Silver Cost:     ($400)  Perks:  A B C D</li>
+                  <li>Gold Cost:      ($1000)  Perks:  A B C D E F</li>
+                </ul>
+                <h2>PERKS</h2>
+                <ul>
+                  <li>A: Directory Listings</li>
+                  <li>B: Business Training</li>
+                  <li>C: Social Media Posts</li>
+                  <li>D: Luncheon Tickets</li>
+                  <li>E: Sponsorships with Levels of Advertising</li>
+                  <li>F: Vacations Club</li>
+                </ul>
+                </div>
                 <label class="top">Amount payable:<span>*</span><input type="number" name="amount" required></label>
-                <label class="top">Payment Type:<span>*</span><input list="membershipPay" name="membershipPay"
-                    required>
+                <label class="top">Payment Type:<span>*</span><input list="membershipPay" name="membershipPay" required>
                   <datalist id="membershipPay">
                     <option value="VISA"></option>
                     <option value="MASTERCARD"></option>

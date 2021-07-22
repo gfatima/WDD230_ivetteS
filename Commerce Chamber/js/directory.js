@@ -11,7 +11,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const businesses = jsonObject['businesses'];
-    const cards = document.querySelector('.card');
+    const cards = document.querySelector('.cards');
 
     businesses.forEach(business => {
       let card = document.createElement('section');
@@ -20,18 +20,18 @@ fetch(requestURL)
       let p2 = document.createElement('p');
       let image = document.createElement('img');
       let a = document.createElement('a');
-      let aText = document.createTextNode("Website");
+      let wSite = document.createTextNode("Website");
 
       h2.innerHTML = `${business.business}`;
       p1.innerHTML = `Phone: ${business.phone}`;
       p2.innerHTML = `Address: ${business.address}`;
       a.setAttribute('href', business.website);
-      a.appendChild(aText);
+      a.appendChild(wSite);
       image.setAttribute('src', business.logo);
       image.setAttribute('alt', `${business.business}`);
 
 
-      card.append(h2, p1, p2, a, image);
+      card.append(image, h2, p1, p2, a);
       cards.append(card);
 
     });

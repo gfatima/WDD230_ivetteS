@@ -685,6 +685,15 @@ form span {
   font-weight: bold;
 }
 
+form h2 {
+  font-size: .8rem;
+  text-align: left;
+}
+
+form ul li {
+  list-style: none;
+}
+
 form label option {
   color: var(--primary-color);
   margin: .5rem;
@@ -727,7 +736,7 @@ form input.submitBtn {
   padding: 10px 0;
   width: 60%;
   margin: 5% 20%;
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 form input.submitBtn:hover {
@@ -767,26 +776,6 @@ form input.submitBtn:focus {
 }
 
 /*--------------------w:t------------------------*/
-.box-summary {
-  position: relative;
-  padding: 0 1.2rem;
-}
-
-.weather-summary {
-  background-color: var(--accent3-color);
-  padding: .5rem 1rem;
-  margin: 1rem;
-  color: var(--accent1-color);
-  font-size: .8rem;
-}
-
-.weather-summary h1 {
-  font-size: 1.1rem;
-  color: var(--accent1-color);
-  font-style: var(--heading-font);
-  text-shadow: none;
-  padding: 0;
-}
 
 .box-article {
   margin: .5rem 1.2rem;
@@ -829,9 +818,8 @@ article a {
 }
 
 .cards img {
-  max-width: 95%;
-  margin: 8% 2.5% 5%;
-  box-shadow: rgba(0, 0, 0, 0.5) 0 19px 38px, rgba(0, 0, 0, 0.5) 0 15px 12px;
+  max-width: 50%;
+  margin: 2% 2% 5%;
 }
 
 .cards img:hover {
@@ -841,7 +829,7 @@ article a {
 .cards p {
   padding: 0;
   margin: 0 .5rem .5rem;
-  text-align: center;
+  text-align: left;
   font-family: var(--paragraph-font);
   font-size: 1rem;
 
@@ -850,7 +838,7 @@ article a {
 .cards h2 {
   text-align: center;
   font-size: 1.5rem;
-  margin: 1.5rem 0 0;
+  margin: 1.5rem 0;
 }
 
 .cards h4 {
@@ -869,28 +857,65 @@ article a {
 
 }
 
-.wireframe {
-  max-width: 70%;
-  background-color: rgb(230, 247, 247);
-  padding: 5%;
-  margin: 0 15%;
+/*------------city--------*/
+.cap {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 4px 4px 2px #2c2010;
+  font-size: 1.6rem;
+  position: absolute;
+  top: 22rem;
+  left: 1rem;
+  text-align: center;
+  font-family: var(--heading-font);
+}
+
+.c-ad {
+  margin: 1rem;
+  padding: .2rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0.171);
+  box-shadow: rgba(0, 0, 0, 0.3) 0 9px 28px,
+    rgba(0, 0, 0, 0.22) 0 5px 12px;
+
+}
+
+.c-ad p {
+  color: #000;
+  font-family: var(--paragraph-font);
+}
+
+.text-city {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
+  color: var(--secondary-color);
+
+}
+
+/*----------------------------City------------------------------------*/
+.city-images figure img {
+  padding: .8rem;
+  background-color: rgb(243, 239, 226);
+  border: 1px solid rgb(170, 167, 157);
   box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px,
     rgba(0, 0, 0, 0.22) 0 15px 12px;
 }
 
-.wireframe img {
-  max-width: 70%;
-  margin: 0 15%;
+.city-images figure {
+  margin: 0 10%;
 }
 
-.wireframe h2 {
+.city-images figcaption {
+  font-size: 1.2rem;
+  max-width: 100%;
   text-align: center;
+  border: none;
+  box-shadow: none;
 }
-.weather-summary p {
-  display: flex;
-  justify-content: space-between;
-  font-style: var(--paragraph-font);
-  font-size: 1rem;
+
+.city-images figure img:hover {
+  filter: sepia(2);
 }
 
 @keyframes change {

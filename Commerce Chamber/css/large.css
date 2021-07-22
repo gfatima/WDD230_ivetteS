@@ -73,14 +73,14 @@
     margin: 6% 5% 2%;
   }
 
-  .box-cu{
+  .box-cu {
     display: flex;
     flex-direction: row;
   }
 
-.text-cu{
-  margin: 0 1.5rem;
-}
+  .text-cu {
+    margin: 0 1.5rem;
+  }
 
   .box-associated {
     grid-column: 1/3;
@@ -138,17 +138,6 @@
   .grid-forecast img {
     max-width: 100%;
     width: 10rem;
-  }
-
-  .weather-summary {
-    top: 1.5rem;
-    left: 2.8rem;
-    padding: 1rem 1rem;
-    font-size: 1.5rem;
-  }
-
-  .weather-summary h1 {
-    font-size: 1.6rem;
   }
 
   .box-article {
@@ -239,15 +228,14 @@
   }
 
   .cards section {
-    max-width: 35rem;
+    max-width: 65rem;
     display: grid;
-    padding: 0;
-    padding-top: 15%;
+    padding: 2rem;
   }
 
   .cards section:nth-child(-n+3) h4 {
     padding: 0 0 3rem;
-    margin: 0;
+    margin: 1rem;
   }
 
   .cards section:nth-child(-n+3) p {
@@ -256,15 +244,20 @@
   }
 
   .cards img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
-    padding: 0;
-    padding-top: 13rem;
-    margin: 0;
+    padding: 1rem;
+    margin: 2% 10%;
     box-shadow: none;
 
   }
 
+  /*------------city--------*/
+  .cap {
+    font-size: 4rem;
+    top: 50rem;
+    left: 2rem;
+  }
 
 }
 
