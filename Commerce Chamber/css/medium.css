@@ -35,19 +35,17 @@
   }
 
   .box-forecast {
-    display: block;
-    font-family: var(--heading-font);
-    margin: 1.5rem 3rem;
-    text-align: center;
-  }
-
-
-  .box-forecast img {
-    max-width: 100%;
+    max-width: 70%;
+    margin: 2% 15%;
   }
 
   .fs {
     padding: .5rem;
+  }
+
+  .grid-forecast img {
+    max-width: 100%;
+    width: 5rem;
   }
 
   main picture.photo-B {
@@ -56,7 +54,7 @@
 
   .box-contact {
     margin: 1rem 0 0 .5rem;
-    padding: 1rem;
+    align-items: center;
   }
 
   iframe {
@@ -69,12 +67,12 @@
   }
 
   .box-info {
-    max-width: 60%;
-    margin: 0 20% 0 1%;
+    max-width: 100%;
+    margin: 0;
   }
 
   .social-media img {
-    width: 80%;
+    width: 30%;
   }
 
   .gallery-div {
@@ -172,11 +170,6 @@
     height: auto;
     padding: 0;
     margin: 2%;
-  }
-
-  .grid-forecast img {
-    max-width: 100%;
-    width: 7rem;
   }
 
   /*------------city--------*/
